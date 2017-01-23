@@ -23,7 +23,7 @@ Base
 * 2. Prevents iOS text size adjust after orientation change, without disabling
 *    user zoom. */
 
-html { font-size: 100%; /* 1 */
+html { font-size: 101%; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
 -ms-text-size-adjust: 100%; /* 2 */ }
 html, html a { -webkit-font-smoothing: antialiased; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004); }
