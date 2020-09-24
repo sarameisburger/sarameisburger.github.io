@@ -1,4 +1,4 @@
-version: 2.1
+version: 2.0
 jobs:
   Hello-World:
     docker:
@@ -55,3 +55,4 @@ workflows:
      - Now-Complete:
          requires:
            - Hold-For-Approval
+           
